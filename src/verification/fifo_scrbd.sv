@@ -22,10 +22,10 @@ class fifo_scrbd extends uvm_scoreboard;
         reg [`DATA_WIDTH-1:0] MEM [0:`RAM_DEPTH-1];
         reg [`ADDR_WIDTH-1:0] rd_p;
         reg [`ADDR_WIDTH-1:0] wr_p;
-        reg [`ADDR_WIDTH:0] status_cnt; //this needs one extra bit to hold
+        reg [`ADDR_WIDTH:0] status_cnt;
 
-        logic [`DATA_WIDTH-1:0] q[$]; // queue is used to handle the delay of data out
-SSS
+        logic [`DATA_WIDTH-1:0] q[$]; 
+
         super.run_phase(phase);
 
         forever begin
@@ -36,7 +36,7 @@ SSS
            
             if(inp_packet.reset) begin rd_p = 0;   wr_p = 0;  status_cnt = 0;   q.delete();  ref_packet.data_out = 0;  ref_packet.empty = 1;  ref_packet.full = 0;  end 
             else begin
-                if (q.size() > 0) begin ref_packet.data_out = q.pop_front(); /* if no read data out hold its previous value */end
+                if (q.size() > 0) begin ref_packet.data_out = q.pop_front();end
                 ref_packet.empty = (status_cnt == 0);
                 ref_packet.full  = (status_cnt == `RAM_DEPTH);
             end
