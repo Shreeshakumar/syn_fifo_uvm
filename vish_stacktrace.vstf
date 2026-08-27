@@ -1,0 +1,19 @@
+# transcript error: error writing "stdout": broken pipe
+    while executing
+"puts -nonewline stdout $s"
+# Current time Sun Aug  2 19:07:18 2026
+# Program = vish
+# Id = "10.6c"
+# Version = "2017.07"
+# Date = "Jul 25 2017"
+# Platform = linux
+# 0    0x085f648d: '<unknown (@0x85f648d)>'
+# 1    0x084f502b: 'TclInvokeStringCommand + 0x7b' in '/tools/mentor/questasim_10.6c/questasim/linux/vish'
+# 2    0x097a63ab: '<unknown (@0x97a63ab)>'
+# 3    0x09a58d33: '<unknown (@0x9a58d33)>'
+# transcript error: error writing "stdout": broken pipe
+    while executing
+"puts -nonewline stdout $s"
+# transcript error: error writing "stdout": broken pipe
+    while executing
+"puts -nonewline stdout $s"

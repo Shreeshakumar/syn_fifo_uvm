@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/fetools/work_area/frontend/Batch_11/shreeshakumar/DV_workspace/projects/syn_fifo_uvm/src/design
+vfifo_design
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1786286428
+!i10b 1
+!s100 [HL3E_D[8eg7]h7aCDUUC0
+I7WId2eg>T8LO@mZ9aKmz_1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 fifo_design_sv_unit
+S1
+R0
+Z5 w1786286424
+Z6 8fifo_design.sv
+Z7 Ffifo_design.sv
+L0 6
+Z8 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z9 !s108 1786286428.000000
+!s107 fifo_design.sv|
+Z10 !s90 fifo_design.sv|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vram_dp_ar_aw
+R1
+R2
+!i10b 1
+!s100 2TYFW3I4:0kCh3d3TG^7n0
+IM_FEN>lAPjnNSID?6bbCT1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 183
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 fifo_design.sv|
+R10
+!i113 0
+R11
+R12
